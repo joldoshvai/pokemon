@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center;  */
+            
+        }
+        .pokemon {
+            width: 250px;
+            height: 330px;
+            color: blueviolet;
+            /* background: #605050; */
+            border: 3px solid #000;
+             /* display: flex; */
+            /* justify-content: flex-start; */
+            /* align-items: flex-end   ;  */
+        }
+        .pokemon-list {
+            /* display: grid; */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        }
+        .img-pokemon {
+            width: 90%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .li-pokemon {
+            border: 2px solid #000;
+            border-radius: 10px ;
+        }
+        .ul-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .li-list {
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    width: 150px;
+    height: 60px;
+        }
+        .btn{
+            display: flex; 
+            /* align-items: flex-e nd; */
+            justify-content: space-around;            
+        }
+        .btn-pokemon{
+            width: 150px;
+            background: red;
+            border: 1px solid red;
+
+        }
+        .pokemon-btn{
+            width: 150px;
+            background: red;
+            border: 1px solid red;
+        }        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="pokemon">
+            <!-- <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png" alt="" class="img-pokemon"> -->
+            <ul class="ul-pokemon">
+                <!-- <li class="li-pokemon">name:</li>
+                <li class="li-pokemon">тип:</li>
+                <li class="li-pokemon">рост:</li>
+                <li class="li-pokemon">вес:</li>
+                 -->
+            </ul>
+            <div class="img-pokemon">
+            <img src="#" alt="" class="img">
+            </div>
+    </div>
+    <div class="pokimon-list">
+      <ul class=" ul-list">
+        
+      </div>
+    </header>
+    <div class="btn">
+      <button class="btn-pokemon">click</button>
+      <button class="pokemon-btn">click> </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
